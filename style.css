@@ -7,6 +7,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
+  min-height: 4000px;
 }
 
 .hero::before {
@@ -20,7 +21,7 @@ body {
   background-position: center;
   background-image: url(img/background.jpg);
   z-index: -1;
-  filter:grayscale();
+  filter: grayscale();
 }
 
 .hero {
@@ -57,34 +58,63 @@ body {
   color: white;
 }
 
+.mynavbar {
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: "Sacramento", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.mynavbar .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+}
 /* Media Query */
 /* Laptop */
-@media (max-width:992px){
-    html {
-        font-size: 75%;
-    }
-    .simply-countdown > .simply-section {
-        padding: 70px;
-    }
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 70px;
+  }
 }
 /* Tablet */
-@media (max-width:768px){
-    html {
-        font-size: 65%;
-    }
-    .simply-countdown > .simply-section {
-        padding: 60px;
-        margin: 5px;
-    }
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 /* Mobile Phone */
-@media (max-width:576px){
-    html {
-        font-size: 60%;
-    }
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
 
-    .simply-countdown > .simply-section {
-        padding: 45px;
-        margin: 3px;
-    }
+  .simply-countdown > .simply-section {
+    padding: 39px;
+    margin: 3px;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 29px;
+    margin: 3px;
+  }
 }
