@@ -138,7 +138,7 @@ body {
   color: var(--pink);
 }
 /* Media Query */
-
+/* Extra large */
 @media (max-width: 1200px) {
   .home .heart {
     transform: translateX(-50%) translateY(45px);
@@ -150,30 +150,37 @@ body {
   html {
     font-size: 75%;
   }
+
   .simply-countdown > .simply-section {
     padding: 70px;
   }
+
   .home .heart {
     display: none;
   }
 }
+
 /* Tablet */
 @media (max-width: 768px) {
   html {
     font-size: 65%;
   }
+
   .simply-countdown > .simply-section {
     padding: 60px;
     margin: 5px;
   }
+
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
   }
+
   .home .heart {
     display: none;
   }
 }
+
 /* Mobile Phone */
 @media (max-width: 576px) {
   html {
