@@ -1,5 +1,6 @@
 :root {
-  --pink: #f14e95;
+  --coksu: #f14e95;
+  --coksu: #734021;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0/0.5);
 }
@@ -19,9 +20,9 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-image: url(img/background.jpg);
+  background-image: url(img/2.png);
   z-index: -1;
-  filter: grayscale();
+  /* filter: grayscale(); */
 }
 
 .hero {
@@ -29,37 +30,39 @@ body {
   position: relative;
 }
 
-.hero h1,
-.hero h4,
-.hero p {
-  text-shadow: var(--shadow);
-}
+
 .hero h1 {
   font-family: "Sacramento", cursive;
   font-size: 6rem;
+  color: #734021;
+  text-shadow: var(--shadow);
 }
 
 .hero h4 {
   font-size: 1.6rem;
+  color: #734021;
+  margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 1.4rem;
+  color: #734021;
 }
 
 .hero a {
-  color: var(--pink);
+  color: var(--coksu);
   background-color: white;
   box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-  background-color: var(--pink);
+  background-color: var(--coksu);
   color: white;
 }
 
 .mynavbar {
-  background-color: rgba(255, 255, 225,0.5) !important;
+  background-color: rgba(255, 242, 227,0.5) !important;
+  /* background-color:rgba(255, 242, 227, 0) !important; */
   backdrop-filter: blur(4px);
 }
 
@@ -90,7 +93,7 @@ body {
 }
 
 .home h2 {
-  color: var(--pink);
+  color: var(--coksu);
   font-family: 'Sacramento';
   font-size: 5rem;
   font-weight: bold;
@@ -114,7 +117,7 @@ body {
 .home .couple h3 {
   font-family: 'Sacramento';
   font-size: 2.4rem;
-  color: var(--pink);
+  color: var(--coksu);
 }
 
 .home .couple img {
@@ -167,8 +170,24 @@ body {
   }
 
   .simply-countdown > .simply-section {
-    padding: 60px;
+    padding: 50px;
     margin: 5px;
+    margin-bottom: 20;
+  }
+
+  .simply-countdown > .simply-section {
+    width: 120px;
+    height: 120px;
+  }
+  .simply-countdown > .simply-section .simply-amount{
+    width: 120px;
+    height: 120px;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 1.8rem;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 4rem;
   }
 
   .mynavbar .nav-link {
@@ -190,6 +209,73 @@ body {
   .simply-countdown > .simply-section {
     padding: 39px;
     margin: 3px;
+    margin-bottom: 20;
+  }
+  .simply-countdown > .simply-section {
+    width: 100px;
+    height: 100px;
+  }
+  .simply-countdown > .simply-section .simply-amount{
+    width: 100px;
+    height: 100px;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 1.2rem;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 444px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 39px;
+    margin: 3px;
+    margin-bottom: 20;
+  }
+  .simply-countdown > .simply-section {
+    width: 80px;
+    height: 80px;
+  }
+  .simply-countdown > .simply-section .simply-amount{
+    width: 80px;
+    height: 80px;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 1.2rem;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 364px) {
+  html {
+    font-size: 60%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 32px;
+    margin: 3px;
+    margin-bottom: 20;
+  }
+  .simply-countdown > .simply-section {
+    width: 64px;
+    height: 64px;
+  }
+  .simply-countdown > .simply-section .simply-amount{
+    width: 64px;
+    height: 64px;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 1.2rem;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 3rem;
   }
 }
 
@@ -201,5 +287,20 @@ body {
   .simply-countdown > .simply-section {
     padding: 29px;
     margin: 3px;
+    margin-bottom: 20;
+  }
+  .simply-countdown > .simply-section {
+    width: 60px;
+    height: 60px;
+  }
+  .simply-countdown > .simply-section .simply-amount{
+    width: 60px;
+    height: 60px;
+  }
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 1.2rem;
+  }
+  .simply-countdown > .simply-section .simply-amount {
+    font-size: 3rem;
   }
 }
