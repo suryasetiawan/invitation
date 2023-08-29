@@ -37,8 +37,11 @@
         <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
         <h1>Surya dan Hidayati</h1>
         <p>Akan melangsungkan resepsi pernikahan dalam :</p>
-        <div class="simply-countdown" style="margin-top: 30px; margin-bottom: 30px;"></div>
-        <a href="#undangan" class="btn btn-lg mt-4" >Lihat Undangan</a>
+        <div
+          class="simply-countdown"
+          style="margin-top: 30px; margin-bottom: 30px"
+        ></div>
+        <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
       </main>
     </section>
 
@@ -101,16 +104,16 @@
           <div class="col-lg-6">
             <div class="row">
               <div class="col-8 text-end">
-                <h3>Surya Setiawan</h3>
-                <p>
+                <h3>Surya Setiawan, S.Kom</h3>
+                <!-- <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tenetur debitis, nobis quos nihil quis voluptate praesentium
                   soluta enim libero dolores ratione, rerum ut, suscipit nam
                   totam vitae officiis iusto at!
-                </p>
+                </p> -->
                 <p>
-                  Putra dari Bapak Suarman <br />
-                  dan <br />Ibu Yurni
+                  Putra dari Bapak H. Suarman <br />
+                  dan <br />Ibu Hj. Yurni
                 </p>
               </div>
               <div class="col-4">
@@ -135,17 +138,70 @@
                 />
               </div>
               <div class="col-8">
-                <h3>Hidayati</h3>
-                <p>
+                <h3>Hidayati, S.Ars</h3>
+                <!-- <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tenetur debitis, nobis quos nihil quis voluptate praesentium
                   soluta enim libero dolores ratione, rerum ut, suscipit nam
                   totam vitae officiis iusto at!
-                </p>
+                </p> -->
                 <p>
                   Putri dari Bapak Ali Umar <br />
-                  dan <br />Ibu Fulan
+                  dan <br />Ibu Yenilawati
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Jalan Tangguk Bongkar 10</p>
+            <a
+              href="https://goo.gl/maps/zK2UpExnkhyQmNB1A"
+              target="_blank"
+              class="btn btn-light btn-md my-4"
+              >Klik untuk membuka peta</a
+            >
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00 - 10.00 </span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 8 Oktober 2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 8 Oktober 2023</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -175,5 +231,17 @@
       });
     </script>
 
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
   </body>
 </html>
