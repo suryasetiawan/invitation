@@ -8,7 +8,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
-  min-height: 4000px;
+  /* min-height: 4000px; */
 }
 
 .hero::before {
@@ -92,7 +92,10 @@ body {
   filter: opacity(50);
 }
 
-.home h2 {
+.home h2,
+.info h2,
+.rsvp h2,
+.gifts h2 {
   color: var(--coksu);
   font-family: "Sacramento";
   font-size: 5rem;
@@ -180,6 +183,45 @@ body {
   font-size: 1rem;
 }
 
+.rsvp,
+.gifts {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+.rsvp p,
+.gifts p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.rsvp h2 {
+  font-size: 4.5rem;
+}
+
+.rsvp button {
+   background-color: #FFF1E3;
+   color: var(--coksu);
+   border: 1px solid var(--coksu);
+}
+
+.rsvp button:hover {
+  background-color: var(--coksu);
+  color: white;
+  border: 1px solid var(--coksu);
+}
+
+.gifts {
+  background-color:#FFF1E3;
+}
+.gifts span {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 1rem;
+}
 /* Media Query */
 /* Extra large */
 @media (max-width: 1200px) {
