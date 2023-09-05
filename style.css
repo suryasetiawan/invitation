@@ -85,6 +85,7 @@ body {
 .home {
   background-image: url(img/4.png);
   background-size: cover;
+  background-position: center;
   min-height: 55vh;
   margin-top: -6.5rem;
   padding-top: 10rem;
@@ -147,20 +148,22 @@ body {
 .info {
   /* background-color:#FFF1E3; */
   background-image: url(img/4.png);
-  background-position: 90%;
+  background-size: cover;
   color: var(--coksu);
   padding-top: 10rem;
   padding-bottom: 8rem;
+  background-position: center;
+/* 
+  background-image: url(img/4.png);
+  background-size: cover;
+  min-height: 55vh;
+  margin-top: -6.5rem;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  filter: opacity(50); */
 }
 
-.info h2 {
-  color: var(--coksu);
-  font-family: "Sacramento";
-  font-size: 5rem;
-  font-weight: bold;
-}
-
-.info .alamt {
+.info .alamat {
   font-size: 1.1rem;
 }
 
@@ -170,7 +173,8 @@ body {
 }
 
 .info .card {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  /* background-color: #0a0a0a; */
   color: white;
   border: 1px solid #734021;
 }
@@ -187,6 +191,7 @@ body {
 
 .rsvp {
   background-image: url(img/4.png);
+  background-position: center;
 }
 
 .rsvp,
@@ -220,7 +225,7 @@ body {
 .gifts {
   /* background-color:#FFF1E3; */
   background-image: url(img/4.png);
-  background-position: 90%;
+  background-position: center;
 }
 .gifts span {
   text-transform: uppercase;
