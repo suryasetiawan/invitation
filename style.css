@@ -109,13 +109,16 @@ body {
 
 .home h3 {
   color: #444;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 1rem;
+  font-weight:600;
 }
 
+.rsvp p,
+.gifts p,
 .home p {
   color: #666;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .home .couple {
@@ -126,6 +129,12 @@ body {
   font-family: "Sacramento";
   font-size: 2.4rem;
   color: var(--coksu);
+  
+}
+
+.home .couple p {
+  color: #666;
+  font-size: 1.3rem;
 }
 
 .home .couple img {
@@ -169,7 +178,9 @@ body {
 }
 
 .info .alamat {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  font-weight: 400;
 }
 
 .info .description {
@@ -177,17 +188,24 @@ body {
   font-weight: 400;
 }
 
+.info a {
+  color: var(--coksu);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
 .info .card {
-  background-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
   /* background-color: #0a0a0a; */
   color: white;
-  border: 1px solid #734021;
+  /* border: 1px solid #734021; */
 }
 
 .info .card-header {
-  border-bottom: 1px solid #734021;
+  /* border-bottom: 1px solid #734021; */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  color: var(--coksu);
 }
 
 .info .card-body {
@@ -205,7 +223,7 @@ body {
   padding-bottom: 8rem;
 }
 
-.rsvp p,
+
 .gifts p {
   font-size: 1.2rem;
   font-weight: 300;
@@ -329,6 +347,14 @@ body {
   }
   .home .heart {
     display: none;
+  }
+  .home .couple {
+    margin-top: 100px;
+    padding-inline: 25px;
+  }
+
+  .home .couple .row{
+    margin-bottom: 25px;
   }
 }
 
