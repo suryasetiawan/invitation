@@ -86,10 +86,11 @@ body {
 }
 
 .home {
-  background-image: url(img/4.png);
+  background-image: url(img/6.png);
   background-size: cover;
   background-position: center;
   min-height: 55vh;
+  /* height: 100%; */
   /* margin-top: -6.5rem; */
   padding-top: 10rem;
   padding-bottom: 8rem;
@@ -150,9 +151,10 @@ body {
 
 .info {
   /* background-color:#FFF1E3; */
-  background-image: url(img/4.png);
+  background-image: url(img/5.png);
   background-size: cover;
   color: var(--coksu);
+  /* height: 100%; */
   padding-top: 10rem;
   padding-bottom: 8rem;
   background-position: center;
@@ -193,7 +195,7 @@ body {
 }
 
 .rsvp {
-  background-image: url(img/4.png);
+  background-image: url(img/6.png);
   background-position: center;
 }
 
@@ -227,7 +229,7 @@ body {
 
 .gifts {
   /* background-color:#FFF1E3; */
-  background-image: url(img/4.png);
+  background-image: url(img/5.png);
   background-position: center;
 }
 .gifts span {
