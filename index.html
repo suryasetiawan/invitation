@@ -34,7 +34,7 @@
       class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
     >
       <main>
-        <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+        <h4 style="padding-top: 70px;">Kepada Bapak/Ibu/Saudara/i,</h4>
         <h1>Surya dan Hidayati</h1>
         <p>Akan melangsungkan resepsi pernikahan dalam :</p>
         <div
@@ -47,7 +47,7 @@
       </main>
     </section>
 
-    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+    <!-- <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
       <div class="container">
         <a class="navbar-brand" href="#">Wedding</a>
         <button
@@ -66,7 +66,7 @@
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
+          <div class="offcanvas-header" >
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wedding</h5>
             <button
               type="button"
@@ -75,14 +75,43 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="offcanvas-body">
-            <div class="navbar-nav ms-auto">
+          <div class="offcanvas-body" >
+            <div class="navbar-nav ">
               <a class="nav-link" href="#home">Home</a>
               <a class="nav-link" href="#info">Info</a>
               <a class="nav-link" href="#rsvp">RSVP</a>
               <a class="nav-link" href="#gifts">Gifts</a>
             </div>
           </div>
+        </div>
+      </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Wedding</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-text">
+  
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-text">
+              <li class="nav-item">
+                <a class="nav-link"  href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#rsvp">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gifts">Gifts</a>
+              </li>
+            </ul>
+          </span>
         </div>
       </div>
     </nav>
@@ -348,6 +377,7 @@
 
       offcanvas.addEventListener("show.bs.offcanvas", function () {
         stickyTop.style.overflow = "visible";
+     
       });
 
       offcanvas.addEventListener("hidden.bs.offcanvas", function () {
@@ -377,7 +407,7 @@
         window.onscroll = function () {};
         rootElement.style.scrollBehavior = "smooth";
         // localStorage.setItem("opened", "true");
-        playAudio();
+        // playAudio();
       }
 
       function playAudio() {
