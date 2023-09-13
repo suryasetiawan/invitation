@@ -7,7 +7,7 @@
 
 body {
   font-size: 1.2rem;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   /* min-height: 4000px; */
 }
 
@@ -85,15 +85,75 @@ body {
   color: var(--coksu);
 }
 
+.space1 {
+  background-color: #bf9b79;
+  /* background-color: #ffffff; */
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  align-items: center;
+}
+
+.space1 h1 {
+  /* color: white; */
+  color: var(--coksu);
+  margin-bottom: 2rem;
+}
+
+.space1 h2 {
+  /* color: white; */
+  color: var(--coksu);
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.space1 p {
+  font-size: 1.2rem;
+  color: var(--coksu);
+}
+
+.space2 {
+  background-color: #bf9b79;
+  /* background-color: #ffffff; */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-items: center;
+}
+
+.space2 p {
+  font-size: 1.5rem;
+  color: var(--coksu);
+}
+
+.space5 {
+  background-color: #bf9b79;
+  /* background-color: #ffffff; */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-items: center;
+}
+
+.space5 p {
+  font-size: 1.2rem;
+  color: var(--coksu);
+}
+
+.space5 h1 {
+  color: var(--coksu);
+  font-family: "Sacramento";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
 .home {
   background-image: url(img/6.png);
   background-size: cover;
   background-position: center;
-  min-height: 55vh;
+  /* min-height: 55vh; */
   /* height: 100%; */
   /* margin-top: -6.5rem; */
-  padding-top: 10rem;
-  padding-bottom: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   filter: opacity(50);
 }
 
@@ -164,8 +224,8 @@ body {
   background-size: cover;
   color: var(--coksu);
   /* height: 100%; */
-  padding-top: 10rem;
-  padding-bottom: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-position: center;
 /* 
   background-image: url(img/4.png);
